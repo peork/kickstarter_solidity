@@ -4,8 +4,8 @@ const compiledFactory = require('./build/CampaignFactory.json');
 
 
 const provider = new HDWalletProvider(
-    'wrap stay ceiling educate develop love crater vote dignity cost phrase parent',
-    'https://rinkeby.infura.io/v3/4cde09aa330f4d289f8d683214811274'
+    'WALLET_PASSPHRASE',
+    'RINKEBY_API'
 );
 
 const web3 = new Web3(provider);

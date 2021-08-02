@@ -10,7 +10,7 @@ if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
 } else {
     // We are on the browser *OR* user is not running metamask.
     const provider = new Web3.providers.HttpProvider(
-        ''
+        'RINKEBY_TESTNET_API'
     );
     web3 = new Web3(provider);
 }
